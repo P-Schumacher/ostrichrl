@@ -8,7 +8,7 @@ setuptools.setup(
     version='0.1.0',
     author='Vittorio La Barbera, Fabio Pardo',
     author_email='vlabarbera@rvc.ac.uk, f.pardo@imperial.ac.uk',
-    install_requires=['dm_control', 'lxml', 'numpy'],
+    install_requires=['dm_control==1.0.12', 'lxml', 'numpy'],
     packages=setuptools.find_packages(exclude=("images")),
     package_data={"": ["*.xml", "*.stl", "*.npy"]},
     include_package_data=True,
